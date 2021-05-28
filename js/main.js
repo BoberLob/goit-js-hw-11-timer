@@ -7,6 +7,8 @@ const colors = [
   '#795548',
 ];
 
+let timerId;
+
 const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
@@ -28,5 +30,5 @@ refs.buttonStart.addEventListener('click', () => {
 refs.buttonStop.addEventListener('click', () => {
   refs.buttonStop.disabled = false;
    refs.buttonStart.disabled = false;
-  clearInterval(null);  
+  clearInterval(timerId);  
 });

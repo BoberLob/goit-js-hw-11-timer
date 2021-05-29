@@ -25,7 +25,7 @@ $lato: 'Lato';
 
 // Title
 h1 {  
-  margin-bottom: 10px;
+  margin-bottom: 60px;
   text-align: center;
   font: 300 2.25em $lato;
   text-transform: uppercase;
@@ -37,17 +37,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 10px;  
-  text-align: center;  
-  font: 300 1em $lato; 
-  text-transform: uppercase;  
-  
-  strong {    
-    font-weight: 400;   
-  }
-}
-h3 {
-  margin-bottom: 60px;  
+  margin-bottom: 80px;  
   text-align: center;  
   font: 300 0.7em $lato; 
   text-transform: uppercase;  
@@ -59,7 +49,7 @@ h3 {
 
 // Countdown
 .countdown {
-  width: 560px;
+  width: 720px;
   margin: 0 auto;
 
   .bloc-time {
@@ -83,9 +73,9 @@ h3 {
   .figure {
     position: relative;
     float: left;
-    height: 60px;
-    width: 50px;
-    margin-right: 5px;
+    height: 110px;
+    width: 100px;
+    margin-right: 10px;
     background-color: #fff;
     border-radius: 8px; 
     // @include box-shadow(0 3px 4px 0 rgba(0, 0, 0, .2),inset 2px 4px 0 0 rgba(255, 255, 255, .08));
@@ -99,7 +89,7 @@ h3 {
       left: 0;
       right: 0;
       margin: auto;
-      font: normal 2.94em/57px $lato;
+      font: normal 5.94em/107px $lato;
       font-weight: 700;
       color: #de4848;
     }
@@ -122,8 +112,8 @@ h3 {
       background-color: #f7f7f7;
       transform-origin: 50% 100%;
       -webkit-transform-origin: 50% 100%; 
-      // @include border-top-radius(10px); 
-      // @include transform(perspective(200px));
+    //   @include border-top-radius(10px); 
+    //   @include transform(perspective(200px));
     }
 
     .bottom {  
@@ -147,7 +137,7 @@ h3 {
       height: 50%;
       overflow: hidden;    
       background-color: #f7f7f7;
-      // @include border-top-radius(10px);
+    //   @include border-top-radius(10px);
 
       span {
         position: absolute;
@@ -161,7 +151,7 @@ h3 {
     .top, .top-back {
       height: 50%;
       overflow: hidden;
-      // @include backface-visibility(hidden);
+    //   @include backface-visibility(hidden);
     }
 
     .top-back {
@@ -170,8 +160,8 @@ h3 {
       background-color: #fff;
       -webkit-transform-origin: 50% 0;
       transform-origin: 50% 0;
-      // @include transform(perspective(200px) rotateX(180deg));
-      // @include border-bottom-radius(10px); 
+    //   @include transform(perspective(200px) rotateX(180deg));
+    //   @include border-bottom-radius(10px); 
 
       span {
         position: absolute;

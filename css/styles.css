@@ -20,14 +20,14 @@ a {
 h1 {
   margin-bottom: 60px;
   text-align: center;
-  font: 300 2.25em "Lato";
+  font: 300 2.25em 'Lato';
   text-transform: uppercase;
 }
 
 h2 {
   margin-bottom: 80px;
   text-align: center;
-  font: 300 0.7em "Lato";
+  font: 300 0.7em 'Lato';
   text-transform: uppercase;
 }
 
@@ -49,7 +49,7 @@ h2 {
 .countdown .count-title {
   display: block;
   margin-bottom: 15px;
-  font: normal 0.94em "Lato";
+  font: normal 0.94em 'Lato';
   color: #1a1a1a;
   text-transform: uppercase;
 }
@@ -73,13 +73,14 @@ h2 {
   left: 0;
   right: 0;
   margin: auto;
-  font: normal 5.94em/107px "Lato";
+  font: normal 5.94em/107px 'Lato';
   font-weight: 700;
   color: #de4848;
 }
 
-.countdown .figure .top:after, .countdown .figure .bottom-back:after {
-  content: "";
+.countdown .figure .top:after,
+.countdown .figure .bottom-back:after {
+  content: '';
   position: absolute;
   z-index: -1;
   left: 0;
@@ -101,7 +102,7 @@ h2 {
 }
 
 .countdown .figure .bottom:before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   top: 0;
@@ -127,7 +128,8 @@ h2 {
   margin: auto;
 }
 
-.countdown .figure .top, .countdown .figure .top-back {
+.countdown .figure .top,
+.countdown .figure .top-back {
   height: 50%;
   overflow: hidden;
 }

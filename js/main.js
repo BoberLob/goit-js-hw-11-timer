@@ -39,7 +39,7 @@ class CountdownTimer {
   // }
 
   initVals() {
-    let remainingTime = this.convertTime(this.targetDate - new Date());
+    let remainingTime = this.getTimeComponents(this.targetDate - new Date());
     this.elements.dayCell.textContent = remainingTime.days;
     this.elements.hourCell.textContent = remainingTime.hours;
     this.elements.minCell.textContent = remainingTime.mins;

@@ -1,3 +1,5 @@
+import refs from './refs.js';
+
 class CountdownTimer {
   constructor({ selector, targetDate }) {
     this.elements = this.getElements(selector);
